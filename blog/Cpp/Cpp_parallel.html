@@ -1,0 +1,35 @@
+<!DOCTYPE html> 
+<html>
+    <p>
+       如果一项活动可能与其他活动并发执行，则称为任务task；
+       线程thread是执行任务的计算机特性在系统层面的表示；
+       进程process是运行于独立地址空间，通过进程间通信机制进行交互的线程。 
+    </p>
+    <p>posix对并发的支持：信号量。
+
+
+    </p>
+    <p>cpp对并发的支持
+        <ol>
+            <li>内存模型</li>
+            <li>无锁编程atomic</li>
+            <li>线程和锁thread,condition_variable,mutex</li>
+            <li>任务future,promise,packaged_task,async()</li>
+        </ol>
+    </p>
+    <p>
+        内存模型的一些概念：内存位置、内存序、数据竞争。
+    </p>
+    <p>无锁编程：
+        atomic,atomic&lt;T&gt;:x.load,x.store;atomic_flag,atomic_thread_fence
+    </p>
+    <p>线程
+
+    </p>
+    <p>锁
+        mutex, lock_guard&lt;M&gt;,unique_lock&lt;M&gt;, condition_variable, 
+    </p>
+    <p>任务级并发
+例子：一个find()
+    </p>
+</html>
